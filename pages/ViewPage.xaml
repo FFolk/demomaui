@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="demomaui.pages.ViewPage"
+             Shell.NavBarIsVisible="False"
+             Title="ViewPage">
+    <ScrollView>
+
+        <VerticalStackLayout VerticalOptions="Center">
+            <Label
+                Text="Hello World"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                TextColor="Red"
+                FontSize="Title"
+                FontAttributes="Bold"/>
+            <Border WidthRequest="250"
+                    StrokeShape="RoundRectangle 40,0,0,40"
+                    Padding="9">
+                <Image Source="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Maui_Disney.webp/299px-Maui_Disney.webp.png"/>
+            </Border>
+            <Button
+                Text="Click Me"
+                WidthRequest="250"
+                Margin="0,10"
+                BackgroundColor="Pink"
+                TextColor="Black"
+                FontAttributes="Bold"
+                Clicked="Button_Clicked"
+                ImageSource="icons8_log_cabin_100.png"
+                ContentLayout="Left,15"
+                HeightRequest="30"
+                Padding="0,5"></Button>
+            <ImageButton
+                WidthRequest="80"
+                Source="icons8_log_cabin_100.png"
+                Clicked="ImageButton_Clicked"></ImageButton>
+            <Entry
+                WidthRequest="250"
+                Margin="0,15"
+                HorizontalTextAlignment="Center"></Entry>
+            <Entry
+                WidthRequest="250"
+                Margin="0,15"
+                HorizontalTextAlignment="Center"
+                IsPassword="True"></Entry>
+            <Border
+                WidthRequest="250"
+                HeightRequest="300"
+                Margin="0,10,0,0">
+                <Editor></Editor>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
