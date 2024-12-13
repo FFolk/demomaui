@@ -46,6 +46,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = demomaui.pages.FlxeLayoutP
 build_metadata.AdditionalFiles.TargetPath = pages\FlxeLayoutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = pages\FlxeLayoutPage.xaml
 
+[D:/cs_3/maui/demomaui/pages/ForgetPasswordPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = demomaui.pages.ForgetPasswordPage.xaml
+build_metadata.AdditionalFiles.TargetPath = pages\ForgetPasswordPage.xaml
+build_metadata.AdditionalFiles.RelativePath = pages\ForgetPasswordPage.xaml
+
 [D:/cs_3/maui/demomaui/pages/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = demomaui.pages.HomePage.xaml
