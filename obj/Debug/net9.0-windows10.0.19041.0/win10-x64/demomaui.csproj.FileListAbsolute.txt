@@ -494,3 +494,4 @@ D:\cs_3\maui\demomaui\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer
 D:\cs_3\maui\demomaui\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\icons8_login_100.scale-100.png
 D:\cs_3\maui\demomaui\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\bg.scale-100.png
 D:\cs_3\maui\demomaui\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\demomaui.sourcelink.json
+D:\cs_3\maui\demomaui\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll

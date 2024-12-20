@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="demomaui.pages.LoginPage"
              Shell.NavBarIsVisible="False"
+             xmlns:viewmodel="clr-namespace:demomaui.Viemmodel"
+             x:DataType="viewmodel:LoginViewmodel"
              Title="LoginPage">
     <Grid>
         <Image Source="bg.png"
@@ -28,11 +30,11 @@
                         Margin="0,5"
                         StrokeShape="RoundRectangle 5">
                         <Entry
-                            x:Name="uname"
                             TextColor="Black"
                             FontAttributes="Bold"
                             FontSize="16"
-                            HorizontalTextAlignment="Center"></Entry>
+                            HorizontalTextAlignment="Center"
+                            Text="{Binding Username}"></Entry>
                     </Border>
                     <Label
                         Margin="0,10,0,0"
@@ -43,10 +45,10 @@
                         Margin="0,5"
                         StrokeShape="RoundRectangle 5">
                         <Entry
-                            x:Name="pwd"
                             TextColor="Black"
                             IsPassword="True"
-                            HorizontalTextAlignment="Center"></Entry>
+                            HorizontalTextAlignment="Center"
+                            Text="{Binding Password}"></Entry>
                     </Border>
                     <Button
                         Margin="0,10,0,0"
@@ -56,14 +58,18 @@
                         TextColor="White"
                         FontAttributes="Bold"
                         FontSize="20"
-                        Clicked="Button_Clicked"></Button>
+                        Command="{Binding LoginCommand}"></Button>
                     <FlexLayout
                         Direction="Row"
                         JustifyContent="SpaceBetween"
                         Margin="0,10,0,0">
-                        <Label
-                            Text="Register"
-                            TextColor="Black"></Label>
+                        <Label Text="Register"
+                                TextColor="Black">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding GotoPageCommand}"
+                                                      CommandParameter="{Binding Router}"></TapGestureRecognizer>
+                            </Label.GestureRecognizers>
+                        </Label>
                         <Label
                             Text="Forget Password?"
                             TextColor="Black">

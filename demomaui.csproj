@@ -52,7 +52,7 @@
 		<MauiImage Include="Resources\Images\*" />
 		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 		<MauiImage Include="Resources\Images\Pictures\*" />
-		<MauiImage Include="Resources\Images\Icon\*" Resize="True" BaseSize="100,100"/>
+		<MauiImage Include="Resources\Images\Icon\*" Resize="True" BaseSize="100,100" />
 		<MauiImage Include="Resources\Images\bg\*" />
 
 
@@ -65,6 +65,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
 	</ItemGroup>

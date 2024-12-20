@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3nsfT0GxoEc=",
+  "dgSpecHash": "jCbm+gGW86E=",
   "success": true,
   "projectFilePath": "D:\\cs_3\\maui\\demomaui\\demomaui.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ffolk\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\ffolk\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",
     "C:\\Users\\ffolk\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\ffolk\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
