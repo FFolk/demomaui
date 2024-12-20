@@ -25,6 +25,6 @@ public partial class LoginPage : ContentPage
 	private async void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
 	{
 		System.Diagnostics.Debug.WriteLine("xxx");
-		await Shell.Current.GoToAsync(nameof(ForgetPasswordPage));
-	}
+		await Shell.Current.GoToAsync($"{nameof(ForgetPasswordPage)}?name={uname.Text}&pwd{pwd.Text}");
+	} 	
 }
