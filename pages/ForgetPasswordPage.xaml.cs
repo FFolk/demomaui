@@ -1,5 +1,8 @@
 namespace demomaui.pages;
 
+[QueryProperty(nameof(Username), "uname")]
+[QueryProperty(nameof(Password), "pwd")]
+
 public partial class ForgetPasswordPage : ContentPage
 {
 	//Attributes
@@ -7,7 +10,7 @@ public partial class ForgetPasswordPage : ContentPage
 	// string password = "";
 
 	public string Username { get; set; }
-	public string Parssword { get; set; }
+	public string Password { get; set; }
 
 	public ForgetPasswordPage()
 	{
