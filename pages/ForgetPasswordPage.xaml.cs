@@ -21,4 +21,9 @@ public partial class ForgetPasswordPage : ContentPage
 	{
 		await Shell.Current.GoToAsync("..");
 	}
+    private void Button_Clicked2(object sender, EventArgs e)
+    {
+        System.Diagnostics.Debug.WriteLine($"Username :{Username}");
+        System.Diagnostics.Debug.WriteLine($"Password :{Password}");
+    }
 }
